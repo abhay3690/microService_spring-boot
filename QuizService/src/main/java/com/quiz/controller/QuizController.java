@@ -34,7 +34,7 @@ public class QuizController {
 	public List<Quiz> getAllQuiz() {
 		return this.quizService.get();
 	}
-	
+
 	// get By id
 	@GetMapping("/{id}")
 	public Quiz getById(@PathVariable Long id) {
